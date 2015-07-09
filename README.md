@@ -8,7 +8,7 @@ A personal app help myself book Physical Fitness Room of CityU
 * [HTMLReader](https://github.com/nolanw/HTMLReader)
 
 ##Screen Shot
-######Launch screen
+Launch screen
 ![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/1_launch.png)
 --
 
