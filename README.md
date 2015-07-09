@@ -9,7 +9,7 @@
 
 ##Screen Shot
 Launch screen
------
+-------
 ![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/1_launch.png)
 
 ------Login 
