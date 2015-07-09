@@ -8,9 +8,9 @@
 * [HTMLReader](https://github.com/nolanw/HTMLReader)
 
 ##Screen Shot
-launch screen
+* launch screen
 ![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/1_launch.png)
-login
+* login
 ![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/2_login.png)
 ![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/3_booingDate.png)
 ![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/4_tryToBooking.png)
