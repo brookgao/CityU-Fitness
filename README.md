@@ -1,5 +1,5 @@
 # CityU-Fitness
-######An personal app help myself book Physical Room
+A personal app help myself book Physical Fitness Room of CityU
 
 ##Third-party frameworks used
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking)
