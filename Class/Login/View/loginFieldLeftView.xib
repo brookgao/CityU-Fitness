@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="pwd">
+            <rect key="frame" x="0.0" y="0.0" width="35" height="26"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pwdFieldLeftView" translatesAutoresizingMaskIntoConstraints="NO" id="AO1-q5-mny">
+                    <rect key="frame" x="7" y="2" width="17" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="KtD-6U-Oaj"/>
+                        <constraint firstAttribute="width" constant="17" id="M7e-Kt-0YI"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="AO1-q5-mny" secondAttribute="centerY" id="4KU-5s-a8n"/>
+                <constraint firstItem="AO1-q5-mny" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="7" id="TJj-5d-KUb"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="252" y="342"/>
+        </view>
+        <view contentMode="scaleToFill" id="8dq-je-Yqd" userLabel="eid">
+            <rect key="frame" x="0.0" y="0.0" width="35" height="26"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eidFieldLeftView" translatesAutoresizingMaskIntoConstraints="NO" id="cJF-vR-YR7">
+                    <rect key="frame" x="6" y="2" width="17" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="Xv0-zp-w3X"/>
+                        <constraint firstAttribute="width" constant="17" id="tZP-wj-e8Z"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerY" secondItem="cJF-vR-YR7" secondAttribute="centerY" id="7vL-1o-bPA"/>
+                <constraint firstItem="cJF-vR-YR7" firstAttribute="centerY" secondItem="8dq-je-Yqd" secondAttribute="centerY" id="AbW-Pk-Edp"/>
+                <constraint firstItem="cJF-vR-YR7" firstAttribute="leading" secondItem="8dq-je-Yqd" secondAttribute="leading" constant="6" id="J02-KW-tRF"/>
+                <constraint firstAttribute="centerX" secondItem="cJF-vR-YR7" secondAttribute="centerX" id="tfE-pN-k0M"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="AbW-Pk-Edp"/>
+                    <exclude reference="tfE-pN-k0M"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="313" y="524"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="eidFieldLeftView" width="17" height="23"/>
+        <image name="pwdFieldLeftView" width="17" height="22"/>
+    </resources>
+</document>
