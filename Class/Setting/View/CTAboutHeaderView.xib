@@ -10,7 +10,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="140"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="N9E-GJ-6d5">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about" translatesAutoresizingMaskIntoConstraints="NO" id="N9E-GJ-6d5">
                     <rect key="frame" x="50" y="15" width="220" height="100"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="220" id="d8K-Yz-eX8"/>
@@ -43,6 +43,6 @@
         </view>
     </objects>
     <resources>
-        <image name="about.JPG" width="657" height="300"/>
+        <image name="about" width="657" height="300"/>
     </resources>
 </document>
