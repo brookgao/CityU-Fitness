@@ -8,4 +8,12 @@
 * [HTMLReader](https://github.com/nolanw/HTMLReader)
 
 ##Screen Shot
-![image](https://github.com/brookgao/CityU-Fitness/raw/master/ScreenShot/1_launch.png)
+![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/1_launch.png)
+![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/2_login.png)
+![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/3_booingDate.png)
+![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/4_tryToBooking.png)
+![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/5_booingSuccess.png)
+![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/6_enquire.png)
+![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/7_cancelBooing.png)
+![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/8_me.png)
+
