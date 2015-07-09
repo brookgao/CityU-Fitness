@@ -1,13 +1,13 @@
 # CityU-Fitness
 ######An personal app help myself book Physical Room
 
-###Third-party frameworks used
+##Third-party frameworks used
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking)
 * [MBProgressHUD](https://github.com/jdg/MBProgressHUD)
 * [MJRefresh](https://github.com/CoderMJLee/MJRefresh)
 * [HTMLReader](https://github.com/nolanw/HTMLReader)
 
-###Screen Shot
+##Screen Shot
 ######Launch screen
 ![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/1_launch.png)
 --
