@@ -7,14 +7,13 @@ A personal app help myself book Physical Fitness Room of CityU
 * [MJRefresh](https://github.com/CoderMJLee/MJRefresh)
 * [HTMLReader](https://github.com/nolanw/HTMLReader)
 
-##Icons Resources Website
+##Icons Resources Websites
 * [Sketch App Source](http://www.sketchappsources.com/)
 * [SketchActive](http://aegeank.com/sketchactive/)
 
 
 ##Structure
 ![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/Structure.png)
---
 
 ##Screen Shot
 ######Launch screen
