@@ -2,7 +2,7 @@
 A personal app help myself book Physical Fitness Room of CityU
 
 ##Structure
-![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/Struture.png)
+![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/Structure.png)
 --
 ##Third-party frameworks used
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking)
