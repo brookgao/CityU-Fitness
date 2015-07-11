@@ -1,14 +1,20 @@
 # CityU-Fitness
 A personal app help myself book Physical Fitness Room of CityU
 
-##Structure
-![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/Structure.png)
---
-##Third-party frameworks used
+##Third-party Frameworks Used
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking)
 * [MBProgressHUD](https://github.com/jdg/MBProgressHUD)
 * [MJRefresh](https://github.com/CoderMJLee/MJRefresh)
 * [HTMLReader](https://github.com/nolanw/HTMLReader)
+
+##Icons Resources Website
+* [Sketch App Source](http://www.sketchappsources.com/)
+* [SketchActive](http://aegeank.com/sketchactive/)
+--
+
+##Structure
+![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/Structure.png)
+--
 
 ##Screen Shot
 ######Launch screen
