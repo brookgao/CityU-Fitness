@@ -41,8 +41,8 @@ A personal app help myself book Physical Fitness Room of CityU
 --
 
 ######Trying to cancel
-![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/7_cancelBooking.png)
 ![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/7_2_cancelBooking.png)
+![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/7_cancelBooking.png)
 --
 
 ######Me
