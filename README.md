@@ -25,7 +25,7 @@ A personal app help myself book Physical Fitness Room of CityU
 --
 
 ######Date list
-![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/3_booingDate.png)
+![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/3_bookingDate.png)
 --
 
 ######Trying to book
@@ -33,7 +33,7 @@ A personal app help myself book Physical Fitness Room of CityU
 --
 
 ######Booking successfully
-![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/5_booingSuccess.png)
+![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/5_bookingSuccess.png)
 --
 
 ######Enquiring my booking
@@ -42,6 +42,7 @@ A personal app help myself book Physical Fitness Room of CityU
 
 ######Trying to cancel
 ![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/7_cancelBooking.png)
+![image](https://github.com/brookgao/CityU-Fitness/blob/master/ScreenShot/7_2_cancelBooking.png)
 --
 
 ######Me
