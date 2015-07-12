@@ -29,32 +29,29 @@
 -(void)setChildViewControllers{
     //1.
     CTBookingViewController *bookingVC = [[CTBookingViewController alloc] init];
-    CTNavigationController *bookingNav = [[CTNavigationController alloc] initWithRootViewController:bookingVC];
-  
-    bookingVC.navigationItem.title = @"Date";
-    bookingNav.tabBarItem.title = @"Booking";
-    bookingNav.tabBarItem.image = [UIImage imageNamed:@"bookingTabBar"];
+ 
+    [self addChildViewController:bookingVC navTitle:@"Date" tabBarTitle:@"Booking" image:@"bookingTabBar" selectedImage:@"bookingTabBar_selected"];
     
     //2.
     CTEnquireViewController *enquireVC= [[CTEnquireViewController alloc] initWithStyle:UITableViewStyleGrouped];
-    CTNavigationController *enquireNav = [[CTNavigationController alloc] initWithRootViewController:enquireVC];
-    
-    enquireVC.navigationItem.title = @"My Booking";
-    enquireNav.tabBarItem.title = @"Enquire";
-    enquireNav.tabBarItem.image = [UIImage imageNamed:@"enquireTabBar"];
+    [self addChildViewController:enquireVC navTitle:@"My Booking" tabBarTitle:@"Enquire" image:@"enquireTabBar" selectedImage:@"enquireTabBar_selected"];
    
     //3.
-    CTMeViewController *recordVC = [[CTMeViewController alloc] init];
-    CTNavigationController *recordNav = [[CTNavigationController alloc] initWithRootViewController:recordVC];
-    
-    recordVC.navigationItem.title = @"Me";
-    recordVC.tabBarItem.title = @"Me";
-    recordVC.tabBarItem.image = [UIImage imageNamed:@"userTabBar"];
-
-    
-    [self addChildViewController:bookingNav];
-    [self addChildViewController:enquireNav];
-    [self addChildViewController:recordNav];
+    CTMeViewController *meVC = [[CTMeViewController alloc] init];
+    [self addChildViewController:meVC navTitle:@"Me" tabBarTitle:@"Me" image:@"userTabBar" selectedImage:@"userTabBar_selected"];
 }
 
+
+-(void)addChildViewController:(UIViewController *)childController navTitle:(NSString *)navTitle tabBarTitle:(NSString *)tabBarTitle image:(NSString *)image selectedImage:(NSString *)selectedImage{
+    CTNavigationController *navVC = [[CTNavigationController alloc] initWithRootViewController:childController];
+    
+    childController.navigationItem.title = navTitle;
+    navVC.tabBarItem.title = tabBarTitle;
+    navVC.tabBarItem.image = [UIImage imageNamed:image];
+    navVC.tabBarItem.selectedImage = [[UIImage imageNamed:selectedImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    NSDictionary *titileDict = @{NSForegroundColorAttributeName:[UIColor colorWithRed:107/255.0 green:223/255.0 blue:196/255.0 alpha:1.0]};
+    [navVC.tabBarItem setTitleTextAttributes:titileDict forState:UIControlStateSelected];
+    
+    [self addChildViewController:navVC];
+}
 @end

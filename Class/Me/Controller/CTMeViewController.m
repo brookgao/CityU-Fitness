@@ -16,6 +16,7 @@
 #import "CTTableItemGroup.h"
 #import "CTTableCell.h"
 #import "CTUser.h"
+#import "CTSaveTool.h"
 
 @interface CTMeViewController ()
 
@@ -43,7 +44,8 @@
 
 -(void)addGroup1{
     CTTableItem *total = [CTTableItem tableItemWithTitle:@"Total Hours" icon:@"totalIcon"];
-    total.subText = @"20";
+    NSInteger totalHours = [CTSaveTool getTotalHoursForUser:[CTUser sharedUser].p_username];
+    total.subText = [NSString stringWithFormat:@"%d",totalHours];
 //    CTTableItem *constant = [CTTableItem tableItemWithTitle:@"Constant days" icon:@"constantIcon"];
 //    constant.subText = @"7";
     CTTableItemGroup *group1 = [[CTTableItemGroup alloc] init];

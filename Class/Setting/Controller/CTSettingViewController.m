@@ -32,7 +32,7 @@
 }
 
 -(void)addGroup0{
-    CTTableArrowItem *recommend = [CTTableArrowItem tableItemWithTitle:@"app recommendation" icon:@"appIcon"];
+    CTTableArrowItem *recommend = [CTTableArrowItem tableItemWithTitle:@"App recommendation" icon:@"appIcon"];
 
     CTTableItemGroup *group0 = [[CTTableItemGroup alloc] init];
     group0.tablesItems = @[recommend];
