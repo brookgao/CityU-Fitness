@@ -10,6 +10,7 @@
 
 #import "CTSettingViewController.h"
 #import "CTNavigationController.h"
+#import "CTMyWeightViewController.h"
 
 #import "CTTableItem.h"
 #import "CTTableArrowItem.h"
@@ -46,8 +47,6 @@
     CTTableItem *total = [CTTableItem tableItemWithTitle:@"Total Hours" icon:@"totalIcon"];
     NSInteger totalHours = [CTSaveTool getTotalHoursForUser:[CTUser sharedUser].p_username];
     total.subText = [NSString stringWithFormat:@"%d",totalHours];
-//    CTTableItem *constant = [CTTableItem tableItemWithTitle:@"Constant days" icon:@"constantIcon"];
-//    constant.subText = @"7";
     CTTableItemGroup *group1 = [[CTTableItemGroup alloc] init];
     group1.tablesItems = @[total];
     group1.headerTitle = @"Hours spent in Fitness Room";
@@ -55,7 +54,7 @@
 }
 
 -(void)addGroup2{
-    CTTableArrowItem *weight = [CTTableArrowItem tableItemWithTitle:@"My Weight" icon:@"weightIcon"];
+    CTTableArrowItem *weight = [CTTableArrowItem tableItemWithTitle:@"My Weight" icon:@"weightIcon" destination:[CTMyWeightViewController class]];
     CTTableItemGroup *group2 = [[CTTableItemGroup alloc] init];
     group2.tablesItems = @[weight];
     [self.itemGroups addObject:group2];
@@ -64,7 +63,6 @@
 
 -(void)gotoSettingVC{
     CTSettingViewController *settingVC = [[CTSettingViewController alloc] init];
-   // CTNavigationController *settingNav = [[CTNavigationController alloc] initWithRootViewController:settingVC];
     settingVC.navigationItem.title = @"Setting";
     [self.navigationController pushViewController:settingVC animated:YES];
 }
