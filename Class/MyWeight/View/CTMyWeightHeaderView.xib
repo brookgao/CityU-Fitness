@@ -10,8 +10,8 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write Down Your Weight " minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="LA2-rs-YtW">
-                    <rect key="frame" x="30" y="22" width="181" height="30"/>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write Down Your Weight " minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="LA2-rs-YtW">
+                    <rect key="frame" x="30" y="15" width="181" height="30"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="181" id="6pa-ey-sy1"/>
                         <constraint firstAttribute="height" constant="30" id="HTW-ov-NCv"/>
@@ -19,8 +19,8 @@
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
                 </textField>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KLE-gw-D2M">
-                    <rect key="frame" x="236" y="22" width="60" height="30"/>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KLE-gw-D2M">
+                    <rect key="frame" x="236" y="15" width="60" height="30"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="eVE-67-IuN"/>
                         <constraint firstAttribute="width" constant="60" id="yJ6-SU-FdY"/>
