@@ -14,10 +14,8 @@
 
 @implementation CTNavigationController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-   
-    
+
++(void)initialize{
     UINavigationBar *navBar = [UINavigationBar appearance];
     [navBar setBackgroundImage:[UIImage imageNamed:@"NavBar"] forBarMetrics:UIBarMetricsDefault];
     [navBar setTintColor:[UIColor whiteColor]];
@@ -27,8 +25,11 @@
                            NSFontAttributeName:[UIFont systemFontOfSize:18],
                            NSForegroundColorAttributeName:[UIColor whiteColor],
                            };
-    [self.navigationBar setTitleTextAttributes:dict];
-    
+    [navBar setTitleTextAttributes:dict];
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
 
 }
 

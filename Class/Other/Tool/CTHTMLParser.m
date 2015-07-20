@@ -111,8 +111,7 @@
             alreadAlert = [alreadAlert stringByReplacingOccurrencesOfString:@"('" withString:@""];
             alreadAlert = [alreadAlert stringByReplacingOccurrencesOfString:@"');" withString:@""];
             //系统关于重复的提示
-            NSArray *alreadBookingArray = [NSArray array];
-            alreadBookingArray = @[alreadAlert];
+            NSArray *alreadBookingArray = @[alreadAlert];
             return alreadBookingArray;
         }
         //分解场地参数
